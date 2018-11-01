@@ -1,0 +1,315 @@
+html{
+  display: block;
+}
+*{
+  font-family: 'Omnes';
+}*
+body{
+  margin:auto;
+  background: #efeeee;
+  display:block;
+}
+header h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'FatFrank' !important;
+}
+.haves{
+  display: flex;
+}
+.gets{
+display: block;
+text-align: center;
+margin-bottom: 10%;
+}
+.welcome{
+  margin-left: 5%;
+  margin-top: 5%;
+}
+header{
+  background: #d63330;
+  color: white;
+  padding:10px;
+  position: fixed;
+  top:0;
+  right: 0;
+  left:0;
+  height:150px;
+}
+a{
+  color: white;
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
+}
+a:hover{
+  font-weight: bolder;
+}
+#menu li{
+  list-style: none;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+a{
+  padding:30px;
+}
+#register{
+  display:flex;
+  justify-content: center;
+}
+#login-form{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#user-welcome{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5%;
+  margin-top:200px;
+}
+#yadda-output {
+margin-top:50;
+
+}
+#yadda-input{
+  margin-left: auto;
+  margin-right: auto;
+}
+form#yadda-form{
+  display:flex;
+  justify-content: center;
+}
+#yadda-input h1{
+  display: flex;
+  justify-content: center;
+}
+div#yadda{
+  background: white;
+  margin-right:auto;
+  margin-left: auto;
+  padding:25px;
+  width: 590px;
+  height:auto;
+  margin-bottom: 2.5%;
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+.input-btn{
+  padding: 5px 10px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #d63330;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 1%;
+  height: 50px;
+  width: 70px;
+  transition: 0.2s ease-in-out;
+  font-weight: bold;
+}
+.input-btn:hover {
+  background-color: #9c2623;
+}
+
+.input-btn:active {
+  background-color: #9c2623;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+textarea{
+  height: 200px;
+  width: 450px;
+  margin-left:60px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  background-color: WHITE;
+  font-size: 16px;
+  resize: none;
+  margin-bottom: 2.5%;
+}
+.main h1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5%;
+}
+#yadda-reply{
+  background: #d63330;
+  color: white;
+  padding:5px;
+  width:50px;
+  float:right;
+  margin-right:15px;
+  border:none;font-size:12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  height:35px;
+  border-radius:12px;
+  box-shadow: 0 6px #999;
+}
+#yadda-reply:hover{
+  background-color: #9c2623;
+}
+#d-yadda{
+  display: flex;
+  flex-direction: column;
+
+}
+#yadda-username{
+  float:left;
+}
+table{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+#login-form{
+  background: white;
+  width:450px;
+  height:auto;
+  padding:20px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top:250px;
+}
+#login-btn{
+  background: #d63330;
+  color: white;
+  padding:5px;
+  width:50px;
+  border:none;
+  font-size:12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  height:30px;
+  border-radius:10px;
+  box-shadow: 0 6px #999;
+}
+#login-btn:hover {
+  background-color: #9c2623;
+}
+
+#login-btn:active {
+  background-color: #9c2623;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#login-surrender{
+  height:30px;
+  background: #d63330;
+  color: white;
+  border:none;
+  font-weight: bold;
+  border-radius:10px;
+  font-size: 12px;
+  cursor:pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 6px #999;
+}
+#login-surrender:hover{
+  background-color: #9c2623;
+}
+#login-surrender:active{
+  background-color: #9c2623;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#register-form{
+  background: white;
+  width:450px;
+  height:auto;
+  padding:20px;
+  margin-top: 30px;
+  margin-top:250px;
+}
+#login-submit{
+  display: flex;
+  justify-content: center;
+}
+#register-btn{
+  height:30px;
+  background: #d63330;
+  color: white;
+  border:none;
+  font-weight: bold;
+  border-radius:10px;
+  font-size: 12px;
+  cursor:pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 6px #999;
+}
+#register-btn:hover {
+  background-color: #9c2623;
+}
+
+#register-btn:active {
+  background-color: #9c2623;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+section{
+  display: flex;
+  justify-content: center;
+}
+#edit-users{
+  background: white;
+  padding:30px;
+  width:450px;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+#edit-forms{
+  margin-right:auto;
+  margin-left: auto;
+}
+#edit-user-btn{
+  height:25px;
+  background: #d63330;
+  color: white;
+  border:none;
+  font-weight: bold;
+  border-radius:10px;
+  font-size: 12px;
+  cursor:pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 6px #999;
+  margin:5px;
+}
+#edit-user-btn:hover{
+  background-color: #9c2623;
+}
+#edit-user-btn:active{
+  background-color: #9c2623;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.haves1{
+  margin-right: 15px;
+  background: #d63330;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 12px;
+  padding:5px;
+  border-radius: 5px;
+}
+#edit-user-option{
+  background: #d63330;
+}
